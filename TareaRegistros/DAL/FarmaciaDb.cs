@@ -14,6 +14,7 @@ namespace TareaRegistros.DAL
 
         }
         public DbSet<Clientes> Cliente { get; set; }
+        public Dbset<Medicinas> Medicina { get; set; }
 
     }
 }
